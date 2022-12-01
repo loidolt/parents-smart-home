@@ -14,4 +14,4 @@ services:
       - TZ=America/Denver
     devices:
       # Make sure this matched your adapter location
-      - /dev/serial/by-id/usb-Silicon_Labs_HubZ_Smart_Home_Controller_B1500431-if00-port0:/dev/ttyUSB0
+      - /dev/serial/by-id/usb-Silicon_Labs_HubZ_Smart_Home_Controller_B1500431-if00-port0:/dev/ttyACM0
