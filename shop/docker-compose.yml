@@ -14,4 +14,4 @@ services:
       - TZ=America/Denver
     devices:
       # Make sure this matched your adapter location
-      - usb-ITead_Sonoff_Zigbee_3.0_USB_Dongle_Plus_a8017c002f0dec1190bcd5cebd930c07-if00-port0:/dev/ttyACM0
+      - /dev/serial/by-id/usb-ITead_Sonoff_Zigbee_3.0_USB_Dongle_Plus_a8017c002f0dec1190bcd5cebd930c07-if00-port0:/dev/ttyACM0
